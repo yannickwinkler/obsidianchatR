@@ -2,7 +2,7 @@
 
 `obsidianchatR` is an R package primarily developed for my personal workflow to extract content from [Obsidian](https://obsidian.md/) literature notes (imported from [Zotero](https://www.zotero.org)) and format it for use with Large Language Models (LLMs). It allows combining insights from structured notes with sections of a manuscript for quickly revising or generating academic texts.
 
-This package is shared to inspire others or for anyone wishing to experiment with similar workflows. Please note that it's tailored to a specific setup and might require adjustments for your own needs. For more general PDF data extraction, you might also want to explore tools like [docling](https://github.com/docling-project/docling), even though I haven't used it yet.
+This package is shared to inspire others or for anyone wishing to experiment with similar workflows. Please note that it's tailored to a specific setup and might require adjustments for your own needs. For more general PDF data extraction, you might also want to explore tools like [docling](https://github.com/docling-project/docling), although I haven’t used it myself.
 
 ## Installation
 
@@ -101,7 +101,7 @@ rating:
 
 I copied most of the template from somewhere, but unfortunately, I no longer have the original. Give me a shout if you know the source, and I will credit it here.
 
-This template works with the [Obsidian Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration) plugin, which allows you to annotate PDFs in Obsidian and automatically sync them with Zotero.
+This template works with the [Obsidian Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration) plugin, which lets you import annotated PDFs from Zotero into Obsidian.
 
 **My Workflow Example:**
 
