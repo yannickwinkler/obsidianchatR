@@ -1,0 +1,20 @@
+Package: obsidianchatR
+Title: A way to chat with obsidian notes.
+Version: 0.1.0
+Authors@R: 
+    person("Yannick", "Winkler", , "first.last@example.com", role = c("aut", "cre"))
+Description: Provides functions to extract structured content (annotations, notes, abstracts, citekeys) 
+    from Obsidian literature notes, particularly those imported from Zotero. 
+    It facilitates the creation of prompts for Large Language Models (LLMs) 
+    by combining these notes with sections from R Markdown manuscripts. 
+    The package thus allows to quickly draft academic texts.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    ellmer,
+    jsonlite,
+    purrr,
+    stringr
